@@ -1,0 +1,21 @@
+#home{
+    background-image: url(../img/Lacoupole1.jpg);
+    color: #751035;
+    background-size: cover;
+    text-align: center;
+    height: 1000px;
+}
+
+#home h1 {
+    font-size: 5rem;
+}
+
+#home p{
+    color: #580246;
+    font-size: 2rem;
+  
+    opacity: 0.5;
+}
+#home div{
+    background-color: hsla(262, 21%, 64%, 0.253);
+ }
