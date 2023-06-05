@@ -1,18 +1,59 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="stylesheet" href="public/assets/css/home.css">
+    <link rel="stylesheet" href="public/assets/css/reservation.css">
     <title>La Coupole</title>
 </head>
+
 <body>
     <header></header>
-    <main id="home"></main>
+    <main id="home">
+        <div>
+        <h1>LA COUPOLE</h1>
+        <p>Bistro conviviale familiale produit frais et certification (fait maison) </p>
+        <p>Vous aimerez : l'ambiance brasserie parisienne, la cadre unique et théâtral (le resto est adossé au cirque
+            Jules Verne!),
+            le tout-fait maison et les valeurs sûres de la cuisine traditionnelle française proposées à l'ardoise. Une
+            valeur sûre à Amiens.</p>
+        </div>
+    </main>
     <section id="menu"></section>
-    <section id="reservation"></section>
+    <section id="reservation">
+            <form>
+                <p><label for="Nom">Nom</label>
+                    <input type="text" id="Nom" name="Nom">
+                    <label for="Prenom">Prénom</label>
+                    <input type="text" id="Prénom" name="Prénom">
+                </p>
+                <p> <label for="Email">Email</label>
+                    <input type="email" id="Email" name="Email">
+                    <label for="Téléphone">Téléphone</label>
+                    <input type="tel" id="Téléphone" name="Téléphone">
+                </p>
+                <p><label for="Date">Date</label>
+                    <input type="date" id="Date" name="Date">
+                    <label for="Heure">Heure</label>
+                    <input type="time" id="Heure" name="Heure">
+                </p>
+                <p> <label for="Nombre de personne">Nombre de personne</label>
+                    <input type="number" min="1" max="8" id="Nombre de personne" name="Nombre de personne">
+                </p>
+                <p> <label for="Note">Note</label>
+                    <textarea name="Note" id="Note" cols="30" rows="10"></textarea>
+                </p>
+                <p><button type="submit">Envoyer</button></p>
+
+            </form>
+
+    </section>
     <section id="contact"></section>
     <footer></footer>
 </body>
+
 </html>
